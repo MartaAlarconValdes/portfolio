@@ -7,7 +7,7 @@ export function Experience() {
   return (
     <div id="experience" className="experience-page">
       <header className="header-title">
-        <h1>Job Experience</h1>
+        <h1>Experiencia laboral</h1>
       
       </header>
       <div className="job-experience-container">

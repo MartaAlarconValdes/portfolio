@@ -11,6 +11,10 @@
   gap: 2rem;
 }
 
+.home-container img{
+  width: 350px;
+}
+
 .about h1 span,
 .about h2 span {
   background-image: linear-gradient(to bottom, transparent 50%, #ffdc58 50%);
@@ -45,9 +49,14 @@
 .name {
   display: flex;
   gap: 1rem;
-  transform: rotate(-20deg);
+  transform: rotate(-5deg);
+  position: relative;
 }
 .name p {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: max-content;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;

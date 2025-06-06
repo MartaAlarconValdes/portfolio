@@ -2,8 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import "./card.css";
 
 export function Card({
-  isRoundLogo,
-  image,
   duration,
   position,
   companyName,
@@ -29,12 +27,6 @@ export function Card({
 
   return (
     <div className={`card-container ${showFullDescription ? "expanded" : ""}`}>
-      <img
-        style={{ borderRadius: isRoundLogo ? "999px" : "" }}
-        className="company-logo"
-        src={`./${image}`}
-        alt={`${companyName} logo`}
-      />
       <h4>{duration}</h4>
       <h4>{position}</h4>
       <h4>{companyName}</h4>

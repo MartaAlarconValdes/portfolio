@@ -45,14 +45,14 @@ export function Navbar() {
         <nav className={`nav ${menu ? "isOpen" : ""}`}>
           <ul className="nav-list">
             {routes.map((route) => (
-              <li className="nav-item" key={route.name}>
+              <li className="nav-item" key={route.route}>
                 <NavLink
                   className={`nav-link ${
                     location.pathname === route.to ? "isActive" : ""
                   }`}
                   to={route.to}
                   onClick={() => {
-                    handleClick(route.name);
+                    handleClick(route.route);
                   }}
                 >
                   {route.name}
