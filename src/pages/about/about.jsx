@@ -8,7 +8,7 @@ export function About() {
       <div className="about-me-container">
         <div className="about-me-title">
           <img src="./star.svg" alt="" />
-          <h2>About me</h2>
+          <h2>Sobre mí</h2>
         </div>
         <p>
           Desarrolladora full-stack junior especializada en aplicaciones multiplataforma y desarrollo de videojuegos. Apasionada por la tecnología, la innovación y la creación de experiencias digitales que aporten valor. Actualmente, me preparo para comenzar un máster en Big Data e Inteligencia Artificial, con el objetivo de ampliar mis conocimientos y explorar nuevas áreas del desarrollo tecnológico.
@@ -25,7 +25,7 @@ export function About() {
         <div className="personal-skills-container">
         <div className="personal-skills-title">
         <img src="./heart.svg" alt="" />
-          <h2>Personal skills</h2>
+          <h2>Habilidades</h2>
       </div>
 
           <ul>

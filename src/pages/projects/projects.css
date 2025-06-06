@@ -1,8 +1,42 @@
 #projects {
-    width: 100vw;margin: 2rem;
+    width: 100%;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    margin: 10vh 0;
 }
-.projects-container{
-   display: flex;
-   justify-content: space-between;
+.projects-container {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
+@media screen and (min-width: 901px) and (max-width: 1290px) {
+  .projects-container {
+     flex-direction: column;
+
+}
+
+}
+
+@media (max-width: 900px) {
+  .projects-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  
+
+}
+}
+@media (max-width: 650px) {
+
+  #projects { margin: 0.5rem 0.5rem;
+    
+}
+  .projects-container{
+    margin-right: 1.5rem;
+  }
+}

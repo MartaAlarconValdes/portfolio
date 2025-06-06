@@ -70,17 +70,18 @@ export const jobExperience = [
 
   export const projectsDone = [
   {
-    image: "./imagetest.jpg",
+    image: "./TicTacToe.png",
     name: "Tres en raya con IA",
     shortDescription:
       "Juego clásico de 3 en raya donde puedes enfrentarte a una inteligencia artificial que toma decisiones estratégicas mediante el algoritmo Minimax, garantizando siempre el mejor movimiento posible.",
     technologies: [
       "./unity.png",
       "./csharp.png",
-    ]
+    ],
+    code: "https://github.com/MartaAlarconValdes/MinimaxTicTacToe"
   },
   {
-    image: "./imagetest.jpg",
+    image: "./portfolio.png",
     name: "Portfolio",
     shortDescription:
       "Este propio portfolio es un proyecto en el que he estado trabajando para recopilar todos mis otros proyectos y experiencia. Diseñado y creado desde cero con mucha pasión y dedicación.",
@@ -88,26 +89,29 @@ export const jobExperience = [
       "./react.png",
       "./css.png",
       "./javascript.png"
-    ]
+    ],
+    code: "https://github.com/MartaAlarconValdes/portfolio"
   },
   {
-    image: "./imagetest.jpg",
+    image: "./shooter.png",
     name: "Shooter de zombies",
     shortDescription:
-      "Juego de acción en tercera persona en el que disparas a zombies que te atacan. Animaciones sacadas de mixamo y assets sacados de Unity Asset Store",
+      "Juego de acción en tercera persona en el que disparas a zombies que te atacan. Para ganar el juego deberás encontrar un objeto y entrar a una caseta. Animaciones sacadas de Mixamo.com y assets sacados de Unity Asset Store",
     technologies: [
       "./unity.png",
       "./csharp.png",
-    ]
+    ],
+    code:"https://github.com/MartaAlarconValdes/RPG_Juego_MartaAlarcon"
   },
   {
-    image: "./imagetest.jpg",
+    image: "./divorciados.png",
     name: "DivorciaDOS",
     shortDescription:
       "Proyecto final de curso junto a dos compañeros. Juego multijugador de puzzles en el que usamos Photon como servidor. Consiste en colaborar para resolver distintos puzzles a la vez que se cuenta una historia y se juega con las ilusiones ópticas.",
     technologies: [
       "./unity.png",
       "./csharp.png",
-    ]
+    ],
+    code: "https://github.com/MartaAlarconValdes/DivorciaDOS"
   },
 ];

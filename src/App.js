@@ -3,6 +3,7 @@ import { About } from './pages/about/about'
 import { Experience } from './pages/experience/experience'
 import { Home } from './pages/home/home'
 import { Projects } from './pages/projects/projects'
+import { Contact } from './pages/contact/contact'; 
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
     <About/>
     <Projects/>
     <Experience/>
-{/*     <Contact/> */}
+    <Contact/> 
     </>
   )
 }
