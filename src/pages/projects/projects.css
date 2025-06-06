@@ -1,0 +1,8 @@
+#projects {
+    width: 100vw;margin: 2rem;
+}
+.projects-container{
+   display: flex;
+   justify-content: space-between;
+}
+
