@@ -5,10 +5,12 @@ export function Container({
     name,
     shortDescription,
     technologies,
+    code
 }){
     return(
-        <div className="sketch-border"><div className="content">
-            <img src={image} alt="" /> 
+        <div className="sketch-border">
+            <div className="content">
+            <img width={320} height={260} src={image} alt="" /> 
             <h4>{name}</h4>
             <p>{shortDescription}</p>
            <div className="tech-container">
@@ -18,13 +20,15 @@ export function Container({
             </div>
             <div className="projects-btns">
             <a href="" target="_blank" rel="noreferrer">
-                Descargar
+                Visualizar
             </a>
-            <a href="" target="_blank" rel="noreferrer">
+            {}
+            <a href={code} target="_blank" rel="noopener noreferrer">
                 Código
             </a>
+
             </div>
-</div>
+        </div>
         </div>
     );
 }
