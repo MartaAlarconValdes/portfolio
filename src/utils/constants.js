@@ -78,7 +78,8 @@ export const jobExperience = [
       "./unity.png",
       "./csharp.png",
     ],
-    code: "https://github.com/MartaAlarconValdes/MinimaxTicTacToe"
+    code: "https://github.com/MartaAlarconValdes/MinimaxTicTacToe",
+    video: "./TicTacToe.mp4"
   },
   {
     image: "./portfolio.png",
@@ -90,7 +91,8 @@ export const jobExperience = [
       "./css.png",
       "./javascript.png"
     ],
-    code: "https://github.com/MartaAlarconValdes/portfolio"
+    code: "https://github.com/MartaAlarconValdes/portfolio",
+    video: "./Portfolio.mp4"
   },
   {
     image: "./shooter.png",
@@ -101,7 +103,8 @@ export const jobExperience = [
       "./unity.png",
       "./csharp.png",
     ],
-    code:"https://github.com/MartaAlarconValdes/RPG_Juego_MartaAlarcon"
+    code:"https://github.com/MartaAlarconValdes/RPG_Juego_MartaAlarcon",
+    video: "./DivorciaDOSVIDEO.mp4"
   },
   {
     image: "./divorciados.png",
@@ -112,6 +115,7 @@ export const jobExperience = [
       "./unity.png",
       "./csharp.png",
     ],
-    code: "https://github.com/MartaAlarconValdes/DivorciaDOS"
+    code: "https://github.com/MartaAlarconValdes/DivorciaDOS",
+    video: "./DivorciaDOSVIDEO.mp4"
   },
 ];
