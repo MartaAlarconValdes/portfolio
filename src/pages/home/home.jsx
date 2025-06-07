@@ -14,7 +14,7 @@ export function Home() {
             Echa un vistazo a <span>mis proyectos</span>!
           </h2>
           <div className="cv-btn">
-            <a href="/cvMartaAlarcon.pdf" target="_blank" rel="noreferrer">
+            <a href={`${process.env.PUBLIC_URL}/cvMartaAlarcon.pdf`} target="_blank" rel="noreferrer">
               CV
             </a>
           </div>
