@@ -5,7 +5,8 @@ export function Container({
     name,
     shortDescription,
     technologies,
-    code
+    code,
+    video
 }){
     return(
         <div className="sketch-border">
@@ -19,7 +20,7 @@ export function Container({
                 ))}
             </div>
             <div className="projects-btns">
-            <a href="" target="_blank" rel="noreferrer">
+            <a href={video} target="_blank" rel="noreferrer">
                 Visualizar
             </a>
             {}
