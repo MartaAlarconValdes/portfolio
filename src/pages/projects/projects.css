@@ -14,6 +14,13 @@
   align-items: center;
 }
 
+
+.projects-btns a{
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 100px;
+}
+
 @media screen and (min-width: 901px) and (max-width: 1290px) {
   .projects-container {
      flex-direction: column;

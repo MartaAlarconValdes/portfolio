@@ -72,9 +72,10 @@ display: flex;
 }
 .projects-btns a{
     text-decoration: none;
-    color: black;
+    color: white;
     cursor: pointer;
     transition: .2s ease-in-out;
+    text-align: center;
 }
 
 .projects-btns a:hover{
