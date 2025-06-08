@@ -63,6 +63,27 @@
   text-shadow: 0px 4px 0px rgba(231, 231, 231, 0.32);
 }
 
+.photo-container{
+  display: flex;
+  flex-direction: column;
+}
+.icon-container{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.icon-container a:hover{
+    scale: 1.1;
+}
+
+.icon-container a img{
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  
+}
+
 .divider {
   background-color: #000;
   color: white;

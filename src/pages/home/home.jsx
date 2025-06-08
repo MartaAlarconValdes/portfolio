@@ -25,7 +25,20 @@ export function Home() {
               <p>Hola! Soy Marta Alarcón.</p>
             </div>
           </div>
-          <img src="./photo.png" alt="" />
+          <div className="photo-container">
+              <img src={`${process.env.PUBLIC_URL}/photo.png`} alt="" />
+              <div className="icon-container">
+                  <a href="https://www.linkedin.com/in/marta-alarcon-valdes" target="_blank" rel="noopener noreferrer">
+                    <img src={`${process.env.PUBLIC_URL}/linkedin.png`} alt="LinkedIn" />
+                  </a>
+                  <a href="https://github.com/MartaAlarconValdes" target="_blank" rel="noopener noreferrer">
+                    <img src={`${process.env.PUBLIC_URL}/github.png`} alt="GitHub" />
+                  </a>
+                  <a href="mailto:martaalarconvaldes@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <img src={`${process.env.PUBLIC_URL}/email.png`} alt="Email" />
+                  </a>
+              </div>
+          </div>
         </div>
       </section>
       <section className="divider">
