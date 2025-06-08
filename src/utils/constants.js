@@ -114,7 +114,7 @@ export const projectsDone = [
       `${process.env.PUBLIC_URL}/csharp.png`,
     ],
     code: "https://github.com/MartaAlarconValdes/RPG_Juego_MartaAlarcon",
-    video: `${process.env.PUBLIC_URL}/.mp4`,
+    video: `${process.env.PUBLIC_URL}/rpg.mp4`,
   },
   {
     image: `${process.env.PUBLIC_URL}/divorciados.png`,
